@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.button {
+  border: 2px solid #dfe2e5;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: transparent;
+  padding: 8px;
+  font-family: 'Bree serif';
+}
+.blue {
+  color: white;
+  background-image: linear-gradient(#2c2a33, #404069);
+  border-radius: 5px;
+}

@@ -1,0 +1,102 @@
+/* Write your CSS here */
+@media only screen and (max-width: 767px) {
+  .bg-container {
+    background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+    min-height: 100vh;
+    padding: 10px;
+  }
+  .card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head {
+    font-family: 'Bree Serif';
+    color: #1e293b;
+    font-size: 25px;
+    text-align: center;
+  }
+  .search-container {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 2px solid #7b8794;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .input {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  .search-image {
+    height: 25px;
+  }
+  .ul-list-tabs {
+    display: flex;
+    list-style-type: none;
+  }
+  .app-ul-li-cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bg-container {
+    background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+    min-height: 100vh;
+    padding: 10px;
+  }
+  .card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .head {
+    font-family: 'Bree Serif';
+    color: #1e293b;
+    font-size: 40px;
+    text-align: center;
+  }
+  .search-container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 2px solid #7b8794;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .input {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: 80%;
+  }
+  .search-image {
+    height: 25px;
+  }
+  .ul-list-tabs {
+    display: flex;
+    list-style-type: none;
+  }
+  .app-ul-li-cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
